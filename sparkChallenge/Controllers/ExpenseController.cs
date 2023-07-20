@@ -103,7 +103,7 @@ namespace sparkChallenge.Controllers
             return View("CreateExpense");
         }
 
-        [HttpDelete]
+        
         public async Task<IActionResult> DeleteExpense(int id)
         {
             try

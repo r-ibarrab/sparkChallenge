@@ -1,4 +1,39 @@
 ﻿<Properties StartupConfiguration="{A1499663-E370-457E-A9D4-D367EA8FCFEC}|https">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.sparkChallenge FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="sparkChallenge/Program.cs">
+    <Files>
+      <File FileName="sparkChallenge/Views/Shared/_Layout.cshtml" />
+      <File FileName="sparkChallenge/Controllers/ExpenseController.cs" />
+      <File FileName="sparkChallenge/Views/Expense/Index.cshtml" />
+      <File FileName="sparkChallenge/Models/Expense.cs" Line="20" Column="1" />
+      <File FileName="sparkChallenge/Views/Expense/CreateExpense.cshtml" />
+      <File FileName="sparkChallenge/Database/AppDbContext.cs" />
+      <File FileName="sparkChallenge/appsettings.json" />
+      <File FileName="sparkChallenge/Program.cs" Line="10" Column="36" />
+      <File FileName="sparkChallenge/Views/Expense/ModifyExpense.cshtml" />
+      <File FileName="sparkChallenge/Controllers/HomeController.cs" />
+      <File FileName="sparkChallenge/procedures.txt" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="sparkChallenge">
+            <Node name="sparkChallenge" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.sparkChallenge PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

@@ -1,0 +1,25 @@
+﻿
+CREATE PROCEDURE [dbo].[CreateExpense]
+(
+@title varchar(255),
+@company varchar(255),
+@amount int,
+@folio int,
+@expenseDate date,
+)
+BEGIN
+	INSERT INTO dbo.Expenses VALUES (title,company,amount,folio,expenseDate)
+    VALUES (@title,@company,@amount,@folio,@expenseDate)
+END
+
+
+--------------------------------------------
+
+CREATE PROCEDURE [dbo].[SelectAllExpenses]
+
+BEGIN
+	SELECT * FROM dbo.Expenses 
+END
+
+
+--------------------------------------------

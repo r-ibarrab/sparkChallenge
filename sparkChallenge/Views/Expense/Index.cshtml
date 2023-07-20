@@ -1,0 +1,73 @@
+﻿@model IList<sparkChallenge.Models.Expense>
+
+@{
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <td>
+                Id
+            </td>
+            <td>
+                Title
+            </td>
+            <td>
+                Company
+            </td>
+            <td>
+                Amount
+            </td>
+            <td>
+                Date
+            </td>
+            <td>
+                Folio
+            </td>
+            <td>
+                Editar
+            </td>
+            <td>
+                Borrar
+            </td>
+        </tr>
+
+    </thead>
+    <tbody>
+
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+              <tr>
+                  <td>
+                      @item.id
+                  </td>
+                  <td>
+                      @item.title
+                  </td>
+                  <td>
+                      @item.company
+                  </td>
+                  <td>
+                      @item.amount
+                  </td>
+                  <td>
+                      @item.folio
+                  </td>
+                  <td>
+                      @item.date
+                  </td>
+                  <td>
+                      <a asp-controller="Expense" asp-action="ModifyExpense" asp-route-id="@item.id">Editar</a>
+                  </td>
+                  <td>
+                      <a asp-controller="Expense" asp-action="DeleteExpense" asp-route-id="@item.id" >Borrar</a>
+                  </td>
+              </tr>
+            }
+        }
+
+
+    </tbody>
+    </table>
